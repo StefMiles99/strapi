@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "culture_pages",
+  "info": {
+    "singularName": "culture-page",
+    "pluralName": "culture-pages",
+    "displayName": "CulturePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "mission": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.title-desc-image"
+    },
+    "vision": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.title-desc-image"
+    },
+    "our_team": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.title-desc-image"
+    },
+    "phrase": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.a"
+    }
+  }
+}
